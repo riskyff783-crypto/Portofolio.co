@@ -1,0 +1,225 @@
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-toggler {
+
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(69, 69, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+     
+}
+
+.navbar-toggler-icon{
+  background: linear-gradient(to right, rgb(0, 204, 255), rgb(69, 69, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+}
+
+.navbar-bg{
+    background: rgba(255, 255, 255, 0.2); /* transparan */
+  backdrop-filter: blur(10px); /* efek blur */
+  -webkit-backdrop-filter: blur(10px); /* untuk Safari */
+}
+
+.nv-color{
+background: linear-gradient(to right, rgb(0, 204, 255), rgb(69, 69, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jumbotron {
+    padding-top: 2rem;
+    background: linear-gradient(to bottom, rgb(12, 12, 12), rgb(34, 34, 34), rgb(0, 0, 0))
+}
+
+.foto-saya{
+    border: #0004fd;
+    border-width: 10px;
+    border-style:groove;
+}
+
+.skill-saya{
+    border: #0004fd;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.status{
+     background: linear-gradient(to right, rgb(222, 150, 255), rgb(0, 195, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+a {
+    font-family: sans-serif, "vedana";
+}
+
+.halo {
+    margin: 2px;
+}
+
+.chevron{
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(69, 69, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nama {
+    font-family: sans-serif, "Helvetika";
+    font-weight: 700;
+    margin: 0;
+}
+
+#project {
+    background-color: black;
+
+}
+
+.nama {
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(69, 69, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo i {
+    margin: 7px;
+}
+
+
+dsd {
+    font-family: monospace, "Courier New";
+    background: linear-gradient(to bottom, #010103, #0004fd)
+}
+
+#about {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #000000);
+    
+
+}
+
+#about h1 {
+    margin-top: 100px;
+}
+
+.about-text{
+    font-family: sans-serif,"verdana";
+    font-size:15px;
+}
+
+.about-me{
+    background: linear-gradient(to right, rgb(0, 255, 242), rgb(107, 107, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-hobi{
+     border: #0004fd;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.center-hobi{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-1{
+    background:linear-gradient(to bottom, rgb(46, 46, 46),rgb(129, 129, 129),rgb(255, 255, 255));
+}
+
+.anjai p {
+    margin-bottom: 100px;
+}
+
+nav {
+    background: linear-gradient(to bottom, rgb(0, 0, 0));
+}
+
+.linear{
+    background: linear-gradient(to bottom,rgb(0, 0, 0),rgb(0, 0, 0));
+}
+
+.icon-skill{
+    background: linear-gradient(to right,rgb(0, 183, 255),blue,rgb(162, 0, 255))
+}
+
+.skill{
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(114, 114, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.judul{
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(53, 53, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-5{
+     background: linear-gradient(to bottom, rgb(0, 204, 255), rgb(0, 0, 255), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rounded-circle {
+    margin-top: 70px;
+}
+
+.footer-text{
+    font-weight: bold;
+     background: linear-gradient(to bottom, rgb(0, 204, 255), rgba(0, 110, 255, 0.596), rgb(183, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+  }
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.fade-out {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 0.8s ease-out;
+  }
+  .fade-out.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.start-in {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.8s ease-out;
+  }
+  .start-in.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+.start-out {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.8s ease-out;
+  }
+  .start-out.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  
